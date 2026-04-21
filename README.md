@@ -1,6 +1,3 @@
-# ProgII
-Clases de Programacion II
-
 echo "# ProgII" >> README.md 
 git init 
 git add README.md 
