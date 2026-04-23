@@ -1,0 +1,7 @@
+print("Esto funciona")
+print('Esto tambien funciona')
+print(3)
+print(358)
+print(3+3)
+print(2*5)
+print("Somos ",35, "compañeros.")
