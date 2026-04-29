@@ -1,0 +1,26 @@
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+
+# Archivos de VS Code
+.vscode/
+
+# Archivos temporales de ejecución
+tempCodeRunnerFile.py
+
+# Logs
+*.log
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de pruebas personales
+pruebas.py
