@@ -10,18 +10,19 @@
 
 ::::::::: VIDEOS EN CANAL DE YOUTUBE ::::::::::
 
-Gestion Segura de Autenticación en Python
-https://youtu.be/kDyF_byYNrE
+Gestion Segura de Autenticacion en Python
+https://youtu.be/o_MyX6nXglI
 
-Escaneo de Vulnerabilidades HTTP
-https://youtu.be/40Jsxnibeks
 
-Validación SSL
-https://youtu.be/F_38bU0k42A
+Escaneo de Vulnerabildiades HTTP
+https://youtu.be/so4CLfx6HRM
+
+Validacion SSL
+https://youtu.be/-ML3XBbr6Mw
 
 
 
 NOTA: 
-Grupo3 Trabajo el PDF en su totalidad, sin reunirse al Grupo4.
+Grupo3 Se Trabajo  en su totalidad, sin reunirse con al Grupo4.
 
 El grupo4 llego a ultima hora a pedir los script y videos por la cual rechazamos de nuestra parte por presentar a ultimas horas sin ellos tener presentación alguna.
