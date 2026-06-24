@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Auditor SSL</title>
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+</head>
+<body>
+    <div class="container">
+        <h1>🔒 Auditor SSL</h1>
+        <form method="POST">
+            <input
+                type="text"
+                name="dominio"
+                placeholder="https://ejemplo.com"
+                required
+            >
+            <button type="submit">
+                Analizar
+            </button>
+        </form>
+        {% if resultado %}
+<div class="resultado">
+<h2>Resultado de Auditoría SSL</h2>
+<p><strong>Dominio:</strong> {{ resultado.dominio }}</p>
+<p>
+<strong>Estado:</strong>
+<span class="
+{% if resultado.estado_alerta == 'SEGURO' %}
+seguro
+{% elif resultado.estado_alerta == 'ADVERTENCIA' %}
+advertencia
+{% elif resultado.estado_alerta == 'PELIGRO' %}
+peligro
+{% else %}
+critico
+{% endif %}
+">
+{{ resultado.estado_alerta }}
+</span>
+</p>
+<p><strong>Emisor:</strong> {{ resultado.emisor }}</p>
+<p><strong>Expiración:</strong> {{ resultado.fecha_expiracion }}</p>
+<p><strong>Días restantes:</strong> {{ resultado.dias_restantes }}</p>
+<p><strong>Diagnóstico:</strong> {{ resultado.mensaje_alerta }}</p>
+
+<div class="descargas">
+    <a href="{{ url_for('descargar_txt') }}" class="btn-descarga">📄 Descargar TXT</a>
+    <a href="{{ url_for('descargar_pdf') }}" class="btn-descarga">📑 Descargar PDF</a>
+</div>
+</div>
+        {% endif %}
+    </div>
+</body>
+</html>

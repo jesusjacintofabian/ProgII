@@ -1,0 +1,15 @@
+==================================================
+          REPORTE AUTOMÁTICO DE AUDITORÍA SSL      
+          Generado el: 2026-06-24 03:08:01
+==================================================
+
+==================================================
+AUDITORÍA SSL: www.youtube.com
+==================================================
+ Estado del SSL:     [ SEGURO ]
+ ¿Es válido hoy?:    Sí
+ Entidad Emisora:    Google Trust Services
+ Fecha Expiración:   2026-08-17 08:36:18 UTC
+ Días Restantes:     54 días
+ Diagnóstico:        El certificado es válido. Quedan 54 días.
+--------------------------------------------------

@@ -1,0 +1,27 @@
+==================================================
+       REPORTE DE AUDITORIA WEB BASICA            
+       Generado el: 2026-06-23 21:28:36
+==================================================
+
+Sitio auditado : https://www.youtube.com
+Estado general : RIESGO
+
+CABECERAS HTTP DE SEGURIDAD
+----------------------------------------
+[OK] Content-Security-Policy
+[OK] X-Frame-Options
+[OK] X-Content-Type-Options
+[OK] Strict-Transport-Security
+
+METODOS HTTP HABILITADOS
+----------------------------------------
+Metodos encontrados: No disponible
+
+INFORMACION SENSIBLE EXPUESTA
+----------------------------------------
+[ALERTA] Posible informacion sensible: 'token'
+[ALERTA] Posible informacion sensible: 'apikey'
+[ALERTA] Posible informacion sensible: 'admin'
+
+==================================================
+Fin del reporte
