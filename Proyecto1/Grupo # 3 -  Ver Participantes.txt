@@ -1,0 +1,27 @@
+::::::::::::::::  GRUPO 3 ::::::::::::::
+
+- Participantes 
+
+#1 Jesus Jacinto Fabian
+#2 Edward Sanchez
+#3 Edgardo Cordoba
+#4 Erick Leon
+
+
+::::::::: VIDEOS EN CANAL DE YOUTUBE ::::::::::
+
+Gestion Segura de Autenticación en Python
+https://youtu.be/kDyF_byYNrE
+
+Escaneo de Vulnerabilidades HTTP
+https://youtu.be/40Jsxnibeks
+
+Validación SSL
+https://youtu.be/F_38bU0k42A
+
+
+
+NOTA: 
+Grupo3 Trabajo el PDF en su totalidad, sin reunirse al Grupo4.
+
+El grupo4 llego a ultima hora a pedir los script y videos por la cual rechazamos de nuestra parte por presentar a ultimas horas sin ellos tener presentación alguna.
