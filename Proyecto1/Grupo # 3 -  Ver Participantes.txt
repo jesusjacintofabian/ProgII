@@ -11,14 +11,14 @@
 ::::::::: VIDEOS EN CANAL DE YOUTUBE ::::::::::
 
 Gestion Segura de Autenticacion en Python
-https://youtu.be/o_MyX6nXglI
+https://youtu.be/kDyF_byYNrE
 
 
 Escaneo de Vulnerabildiades HTTP
-https://youtu.be/so4CLfx6HRM
+https://youtu.be/40Jsxnibeks
 
 Validacion SSL
-https://youtu.be/-ML3XBbr6Mw
+https://youtu.be/F_38bU0k42A
 
 
 
