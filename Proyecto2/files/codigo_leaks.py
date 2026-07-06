@@ -1,0 +1,27 @@
+# API Key de Google
+GOOGLE_API_KEY = "AIza12345678901234567890123456789012345"
+
+# GitHub Token
+GITHUB_TOKEN = "ghp_123456789012345678901234567890123456"
+
+# Contraseña
+PASSWORD = "Admin12345"
+
+# API Key genérica
+API_KEY = "123456789ABCDEFGH"
+
+# Token
+TOKEN = "abcdefghijklmnop123456"
+
+# Secret
+SECRET = "MiClaveSuperSecreta"
+
+# AWS Access Key
+AWS_KEY = "AKIA1234567890ABCDEF"
+
+# Clave privada
+PRIVATE_KEY = """
+-----BEGIN PRIVATE KEY-----
+ABCDEF123456789
+-----END PRIVATE KEY-----
+"""
