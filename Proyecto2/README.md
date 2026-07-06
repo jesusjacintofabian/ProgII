@@ -36,9 +36,18 @@ Herramienta de auditoría de seguridad en **Python** que combina cinco módulos 
 ## 🧰 Requisitos
 
 - Python 3.8 o superior
-- [Bandit](https://bandit.readthedocs.io/) (analizador estático)
-- `bleach`
-- `fpdf2`
+
+### Librerías externas (requieren `pip install`)
+
+| Librería | Instalación | Uso en el proyecto |
+|---|---|---|
+| Bandit | `pip install bandit` | Módulo 1 — se ejecuta como programa externo vía `subprocess` |
+| bleach | `pip install bleach` | Módulo 4 — sanitización de texto en la demo de defensa |
+| fpdf2 | `pip install fpdf2` | Todos los módulos — generación de reportes PDF (se importa como `from fpdf import FPDF`) |
+
+### Librerías estándar de Python (ya incluidas, no requieren instalación)
+
+`os`, `re`, `json`, `hashlib`, `platform`, `subprocess`, `datetime`
 
 ## ⚙️ Instalación
 
@@ -151,7 +160,7 @@ Si un módulo no se ejecutó antes en la sesión, se marca honestamente como **"
 
 ## ⚠️ Notas y limitaciones conocidas
 
-- El módulo 3 (integridad) solo vigila `proyecto2.py` por defecto. Para vigilar otros archivos, agrégalos manualmente en la lista `archivos` dentro de `crear_base_integridad()`.
+- El módulo 3 (integridad) solo vigila `Proyecto2-CtC.py` por defecto. Para vigilar otros archivos, agrégalos manualmente en la lista `archivos` dentro de `crear_base_integridad()`.
 - El módulo 2 (leaks) acepta tanto la ruta de un archivo individual como la de una carpeta completa.
 - El módulo 5 (consolidado) depende de que los módulos 1 y 2 se hayan ejecutado antes en la misma sesión/carpeta; no repite el escaneo por su cuenta.
 - Este proyecto tiene fines educativos/demostrativos (curso de ciberseguridad); no reemplaza una auditoría de seguridad profesional.
