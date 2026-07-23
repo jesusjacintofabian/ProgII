@@ -116,9 +116,3 @@ Inicia sesión con `admin` / `Admin2026!` para ver todas las pestañas
 - Cabeceras de seguridad HTTP y CORS restringido por whitelist.
 - Errores genéricos al cliente; el detalle técnico solo queda en logs internos.
 
-## Notas para la presentación
-
-- No más de 6 slides, 40 minutos, cada grupo presenta su módulo + vista final integrada.
-- Recuerden pre-elegir sus 4 "atacantes" para la demo de pruebas de ataque.
-- Antes de la demo: cambien la contraseña del admin y generen un `SECRET_KEY` propio
-  en `.env` (no usen el de ejemplo).
