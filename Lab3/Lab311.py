@@ -1,3 +1,4 @@
+# Lab311: Crea una validación simple con if y else para comparar dos variables.
 #Validacion Simple
 a=200
 b= True

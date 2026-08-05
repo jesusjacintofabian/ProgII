@@ -1,3 +1,16 @@
+    """
+    Ejercicio 106 — Clases abstractas y cálculo de áreas
+
+Escriba un programa en Python que defina una clase abstracta llamada Figura
+con un método abstracto calcularArea(). Luego, cree las clases Circulo, 
+Rectangulo y Triangulo, que hereden de Figura e implementen el método 
+calcularArea() según la fórmula correspondiente a cada figura. 
+Finalmente, cree objetos de cada figura, almacénelos en una lista 
+y utilice un ciclo para mostrar el nombre de cada figura junto con el 
+área calculada.
+    
+    """
+
 from abc import ABC, abstractmethod
 import math
 

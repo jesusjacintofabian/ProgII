@@ -1,3 +1,4 @@
+# Lab621: Practica el uso de iteradores sobre tuplas y cadenas, accediendo a los elementos con next() y bucles.
 miTupla = ("asignacion", "laboratorio", "python")
 myit = iter(miTupla)
 

@@ -1,4 +1,5 @@
-def my_function(pais = "Panama"):
+# Lab612: Define una función con parámetro por defecto e invócala varias veces con distintos valores.
+def my_function(pais = "Panama"): 
   print("Soy de ", pais)
 
 my_function("Argentina")

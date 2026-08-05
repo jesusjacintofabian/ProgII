@@ -1,3 +1,13 @@
+  """
+  Ejercicio 8.7 — Herencia de clases
+
+Escriba un programa en Python que defina una clase llamada Persona
+con atributos para almacenar el nombre y apellido, y un método 
+imprimir_nombre() que muestre ambos datos. Luego, cree una clase 
+llamada Estudiante que herede de la clase Persona y utilice el método 
+heredado para mostrar el nombre y apellido de un estudiante.
+  
+  """
 class Persona:
   def __init__(self, nom, ape):
     self.nombre = nom

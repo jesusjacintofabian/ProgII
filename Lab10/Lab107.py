@@ -1,3 +1,17 @@
+    """
+    Ejercicio 107 — Clases abstractas para evaluar funciones matemáticas
+
+Escriba un programa en Python que defina una clase abstracta llamada 
+FuncionMatematica con un método abstracto evaluar(x). 
+Luego, cree las clases FuncionLineal, FuncionCuadratica y 
+FuncionExponencial, que hereden de FuncionMatematica e implementen 
+el método evaluar() de acuerdo con la fórmula correspondiente a cada 
+función. Finalmente, cree objetos de cada tipo de función, solicite al 
+usuario un valor de x y utilice un ciclo para evaluar y mostrar el 
+resultado de cada función matemática.
+    
+    """
+
 from abc import ABC, abstractmethod
 import math
 

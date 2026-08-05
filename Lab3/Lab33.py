@@ -1,3 +1,4 @@
+# Lab33: Define variables de tipo complejo. Muestra su tipo utilizando print(type()) para cada una.
 x= 3+5j
 y=5j
 z=-5j

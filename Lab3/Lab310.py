@@ -1,3 +1,4 @@
+# Lab310: Pide una cadena y utiliza isalnum(), isdigit() e islower(). Muestra los resultados por pantalla.
 # Ejercicio 10
 
 texto = input("Ingrese una cadena: ")

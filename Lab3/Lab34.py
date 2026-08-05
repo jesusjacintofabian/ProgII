@@ -1,3 +1,4 @@
+# Lab34: Crea una variable multilinea usando triple comillas e imprime varias frases usando print().
 a= """Lorem ipsum dolor sit amet,
 consectetur adipscin elit,
 sed do eiusmod tempor incidunt

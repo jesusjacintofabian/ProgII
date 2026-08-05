@@ -1,3 +1,4 @@
+# Lab615: Escribe una función que acepte cualquier cantidad de argumentos y devuelva la suma de todos ellos.
 def my_function(*numeros):
   total = 0
   for num in numeros:

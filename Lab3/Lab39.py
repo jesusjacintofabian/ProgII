@@ -1,3 +1,4 @@
+# Lab39: Solicita una cadena, muestra ejemplos de capitalize(), count() y endswith().
 # Ejercicio 9
 
 texto = input("Ingrese una cadena: ")

@@ -1,3 +1,4 @@
+# Lab523: Define diccionarios de hijos dentro de un diccionario familia e imprime el nombre de un hijo específico.
 # Lab523.py
 child1 = {"name": "Emil", "year": 2004}
 child2 = {"name": "Tobias", "year": 2007}

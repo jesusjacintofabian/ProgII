@@ -1,3 +1,4 @@
+# Lab415: Crea y recorre una tupla con las divisiones administrativas de Panamá, imprimiéndolas una por una.
 divisiones = (
     "Bocas del Toro",
     "Coclé",

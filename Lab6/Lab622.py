@@ -1,3 +1,4 @@
+# Lab622: Usa el módulo datetime para mostrar la fecha y hora actual, y crear una fecha personalizada. Imprime año y día de la semana.
 import datetime
 
 x = datetime.datetime.now()

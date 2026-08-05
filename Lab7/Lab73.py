@@ -1,3 +1,13 @@
+ """
+Ejercicio 7.3 — Análisis de texto
+
+Escriba un programa en Python que solicite al usuario ingresar
+un texto largo. El programa debe convertir el texto a minúsculas,
+eliminar los signos de puntuación y determinar la cantidad de
+palabras únicas, la palabra más larga y la frecuencia de cada
+carácter alfabético.
+"""
+
 import string
 
 # Solicitar texto

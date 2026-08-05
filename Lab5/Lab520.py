@@ -1,3 +1,4 @@
+# Lab520: Elimina una clave de un diccionario usando pop() e imprime el resultado final.
 thisdict = {
     "brand": "Ford",
     "model": "Mustang",

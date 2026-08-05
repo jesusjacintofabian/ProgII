@@ -1,3 +1,4 @@
+# Lab38: Construye cadenas usando f-strings para insertar variables en mensajes impresos.
 age=36
 txt=f"Estudio python, tengo {age} años."
 print(txt)  

@@ -1,3 +1,4 @@
+# Lab617: Define una función generadora simple que devuelva tres valores con yield. Recorre e imprime sus valores.
 def my_generator():
   yield 1
   yield 2

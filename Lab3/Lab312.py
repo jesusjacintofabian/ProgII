@@ -1,3 +1,4 @@
+# Lab312: Crea un literal de bytes y usa el constructor bytes a partir de un entero, imprimiendo tipo y valor.
 # 1. Literal de bytes (forma mas comun)
 my_byte=b"\xFF"
 

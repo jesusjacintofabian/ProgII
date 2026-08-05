@@ -1,3 +1,4 @@
+# Lab23: Imprime en pantalla varios resultados diferentes utilizando cadenas, números y operaciones aritméticas.
 print("Esto funciona")
 print('Esto tambien funciona')
 print(3)

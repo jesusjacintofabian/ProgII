@@ -1,3 +1,4 @@
+# Lab522: Crea un diccionario anidado (diccionario de diccionarios) para información familiar y muéstralo.
 # Lab522.py
 myfamily = {
     "child1": {"name": "Emil", "year": 2004},

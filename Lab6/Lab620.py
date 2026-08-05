@@ -1,3 +1,4 @@
+# Lab620: Define manualmente y genera automáticamente una matriz. Imprime los elementos fila por fila.
 # Definición manual
 matriz = [
     [1, 2, 3],
